@@ -34,7 +34,7 @@ function getTime() {
 }
 
 function firstBotMessage() {
-    let firstMessage = "Hola en que te podemos ayudar?"
+    let firstMessage = "¡Hola! Soy AndiBus, tu asistente virtual de Andimar.cl. Puedo ayudarte con lo que necesites. "+"<br/> 1.- Quiere dejar un reclamo"+"<br/>2.- Quiere consultar valores de pasajes"+"\n3.- Quiere contactarse con un humano";
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
